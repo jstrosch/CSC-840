@@ -34,7 +34,9 @@ I compiled the program using Visual Studio 2015 Command Line Tools
   C:\> cl tester.cpp
 ```
 
-# Demo
+# Resources & Demo
+
+Powerpoint slides are contained in this repository.
 
 [YouTube](http://www.youtube.com/watch?v=rImRS-6JGEw)
 
