@@ -8,10 +8,10 @@ This project focused on hooking vtables in a sample C++ program.  I have three r
 
 Three main ideas for this project:
 
-*It is difficult to defend applications when an attacker has the program
-**Even when it’s just binary data
-*Windows API allows for a tremendous amount of flexibility and can be leveraged directly
-*Indirect calls can lead to security vulnerabilities/exploitation
+* It is difficult to defend applications when an attacker has the program
+** Even when it’s just binary data
+* Windows API allows for a tremendous amount of flexibility and can be leveraged directly
+* Indirect calls can lead to security vulnerabilities/exploitation
 
 
 # Current Status
