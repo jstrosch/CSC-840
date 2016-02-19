@@ -10,9 +10,9 @@ Three main ideas for this project:
 
 * How does CFG work?  What is the difference between a binary using CFG and those that are not
 * Is CFG effective?
-** What gaps does it fill in exploit mitigation?
+ ** What gaps does it fill in exploit mitigation?
 * Are there ways to bypass CFG?
-** What gaps does it not feel or leave behind?
+ ** What gaps does it not feel or leave behind?
 
 
 # Current Status
@@ -21,11 +21,11 @@ The current status of this work is that the code is able to successfully hook th
 
 # Future Work
 
-*How is the CFGBitMap created
-*Explore other avenues of bypass for CFG
-** Can I get ROP to work?
-*What else could be created to fill “gaps” left by CFG?
-*Explore new mitigation techniques
+* How is the CFGBitMap created
+* Explore other avenues of bypass for CFG
+ ** Can I get ROP to work?
+* What else could be created to fill “gaps” left by CFG?
+* Explore new mitigation techniques
 
 
 # Environment
