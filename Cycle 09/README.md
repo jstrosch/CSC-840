@@ -1,4 +1,4 @@
-## Control Flow Guard
+## Heap Spray
 
 This project shifts gears a little and looks into heap sprays. 
 
@@ -35,5 +35,5 @@ Windows XP SP3 and IE 6
 
 Powerpoint slides are contained in this repository.
 
-[YouTube]()
+[YouTube](https://youtu.be/kEk2HIRWjmE)
 
