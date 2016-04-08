@@ -33,4 +33,4 @@ Windows 7 SP 1 x86
 
 Powerpoint slides are contained in this repository.
 
-[YouTube]()
+[YouTube](https://youtu.be/zh-NIh76Y-c)
